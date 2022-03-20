@@ -108,7 +108,7 @@ article img {
 aside {
   width: 30%;
   padding: 20px;
-  background-color: lightgrey;
+  background-color: rgb(188, 240, 188);
   border-left: 2px dashed black;
 }
 
@@ -119,6 +119,7 @@ aside {
 .widget img {
   float: left;
   margin: 0 10px 5px 0;
+  border-radius: 5%;
 }
 
 .links ul {
