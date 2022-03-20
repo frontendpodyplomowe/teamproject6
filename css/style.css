@@ -63,6 +63,17 @@ header {
 
 /* Menu */
 
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav .flower {
+  height: 40px
+ 
+}
+
+
 nav ul {
   list-style: none;
   margin: 0;
@@ -236,7 +247,10 @@ footer {
   padding: 20px 0;
 }
 
-footer p {
-  margin: 0;
-  text-shadow: 2px 2px darkgrey;
+
+  footer p{
+    margin:0;
+    text-shadow: 2px 2px darkgrey;
 }
+
+
