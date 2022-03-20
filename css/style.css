@@ -153,6 +153,21 @@ aside {
 }
 
 .links ul li {
+    margin-bottom: 10px;
+    
+}
+
+.links ul li a {
+  padding: 5px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  transition: .2s;
+}
+
+.links ul li a:hover {
+  background-color: black;
+  color: white;
   margin-bottom: 10px;
 }
 
