@@ -1,4 +1,5 @@
 /* General rules */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 *,
 *::before,
@@ -42,6 +43,18 @@ header {
 .brand a,
 .brand img {
   display: block;
+}
+
+.logoText {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+}
+.logoText p {
+  font-family: "Lobster", cursive;
+  font-size: 4em;
+  padding: 0;
+  margin: 5px 0 5px 10px;
 }
 
 /* Menu */
