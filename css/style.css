@@ -11,10 +11,12 @@
 }
 
 
+
 body{
     margin:0;
     font-size: 16px;
     font-family: 'Neucha', cursive;
+
 }
 
 img {
@@ -77,6 +79,7 @@ nav ul li a {
   font-size: 18px;
   text-decoration: none;
   padding: 10px 15px;
+  transition: 1s;
 }
 
 nav ul li a img {
@@ -87,8 +90,14 @@ nav ul li a img {
 }
 
 nav ul li a:hover {
-  background-color: black;
+  background: linear-gradient(
+    243deg,
+    rgba(34, 195, 78, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  border-radius: 20px;
   color: white;
+  border: 1px solid rgb(2, 143, 49);
 }
 
 /* Slider */
