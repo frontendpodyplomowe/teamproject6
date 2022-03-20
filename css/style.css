@@ -1,9 +1,5 @@
 /* General rules */
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
-=======
-@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
->>>>>>> 071b932ebb8930f439273ba01eb06a806ceed713
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 *,
@@ -14,18 +10,10 @@
   /* domyślnie to jest content-box */
 }
 
-<<<<<<< HEAD
 body {
   margin: 0;
   font-size: 16px;
   font-family: "Neucha", cursive;
-=======
-body{
-    margin:0;
-    font-size: 16px;
-    font-family: 'Neucha', cursive;
-
->>>>>>> 071b932ebb8930f439273ba01eb06a806ceed713
 }
 
 img {
@@ -78,17 +66,9 @@ nav {
 }
 
 nav .flower {
-<<<<<<< HEAD
   height: 40px;
 }
 
-=======
-  height: 40px
- 
-}
-
-
->>>>>>> 071b932ebb8930f439273ba01eb06a806ceed713
 nav ul {
   list-style: none;
   margin: 0;
@@ -180,13 +160,7 @@ aside {
 }
 
 .links ul li {
-<<<<<<< HEAD
   margin-bottom: 10px;
-=======
-
-    margin-bottom: 10px;
-    
->>>>>>> 071b932ebb8930f439273ba01eb06a806ceed713
 }
 
 .links ul li a {
@@ -194,11 +168,7 @@ aside {
   text-decoration: none;
   text-transform: uppercase;
   color: black;
-<<<<<<< HEAD
   transition: 0.2s;
-=======
-  transition: .2s;
->>>>>>> 071b932ebb8930f439273ba01eb06a806ceed713
 }
 
 .links ul li a:hover {
@@ -207,10 +177,6 @@ aside {
   margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 071b932ebb8930f439273ba01eb06a806ceed713
 .offer {
   display: flex;
   padding: 0 100px;
@@ -219,17 +185,10 @@ aside {
 
 .offer figure {
   background-color: white;
-<<<<<<< HEAD
   border: 0.5px solid gray;
   width: 200px;
   margin: 50px 0;
   border-radius: 10px;
-=======
-  border: .5px solid gray;
-  width: 200px;
-  margin: 50px 0;
-  border-radius: 10px;  
->>>>>>> 071b932ebb8930f439273ba01eb06a806ceed713
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -238,7 +197,6 @@ aside {
 .offer h5 {
   color: #9ac051;
   font-weight: 200;
-<<<<<<< HEAD
 }
 
 .offer p {
@@ -266,66 +224,19 @@ aside {
 .offer .sea {
   background-image: url("/fantastic-seascape-with-ripples.jpeg");
   background-position: bottom;
-=======
->>>>>>> 071b932ebb8930f439273ba01eb06a806ceed713
 }
-
-.offer p {
-  color: black;
-
-  text-align: center;
-
-}
-
-.offer .read-more-less-btn {
-  background-color: #9ac051;
-  color: #fff;
-  font-size: 8px;
-  border: none;
-}
-
-.offer .circle-img {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 20px;
-}
-
-.offer .sea {
-  background-image: url("/fantastic-seascape-with-ripples.jpeg");
-  background-position: bottom;
-      
-
-
-
-
-
-
 
 /* footer */
 footer {
-<<<<<<< HEAD
-=======
-
->>>>>>> 071b932ebb8930f439273ba01eb06a806ceed713
   background-color: lightgrey;
   border-top: 2px dashed black;
   text-align: center;
   padding: 20px 0;
 }
 
-<<<<<<< HEAD
 footer p {
   margin: 0;
   text-shadow: 2px 2px darkgrey;
-=======
-
-  footer p{
-    margin:0;
-    text-shadow: 2px 2px darkgrey;
->>>>>>> 071b932ebb8930f439273ba01eb06a806ceed713
 }
 
 /* Gallery */
@@ -339,8 +250,4 @@ footer p {
   width: 100%;
   height: auto;
   padding: 30px 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 071b932ebb8930f439273ba01eb06a806ceed713
