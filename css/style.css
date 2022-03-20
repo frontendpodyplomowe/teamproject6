@@ -1,10 +1,13 @@
 /* General rules */
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
-*, *::before, *::after{
-    box-sizing: border-box;
-    /* box-sizing: content-box; */
-    /* domyślnie to jest content-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* box-sizing: content-box; */
+  /* domyślnie to jest content-box */
 }
 
 
@@ -14,20 +17,19 @@ body{
     font-family: 'Neucha', cursive;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Container */
-#container{
-    max-width: 1000px;
-    margin: 20px auto;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 0 0 30px darkgrey;
+#container {
+  max-width: 1000px;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 30px darkgrey;
 }
-
 
 /* Header */
 
@@ -43,6 +45,18 @@ header {
 .brand a,
 .brand img {
   display: block;
+}
+
+.logoText {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+}
+.logoText p {
+  font-family: "Lobster", cursive;
+  font-size: 4em;
+  padding: 0;
+  margin: 5px 0 5px 10px;
 }
 
 /* Menu */
@@ -63,6 +77,13 @@ nav ul li a {
   font-size: 18px;
   text-decoration: none;
   padding: 10px 15px;
+}
+
+nav ul li a img {
+  margin: 0 5px;
+  display: inline-block;
+  position: relative;
+  top: 4px;
 }
 
 nav ul li a:hover {
@@ -92,17 +113,17 @@ article {
 }
 
 /* Przeanalizować ponizszy selektor w kontekscie dzialania wlasciwości box-sizing na wszystkich elementach */
-article img{
-    padding-left: 100px;
-    border-left: 10px solid blue;
-    padding-right: 70px;
-    margin-right: 20px;
+article img {
+  padding-left: 100px;
+  border-left: 10px solid blue;
+  padding-right: 70px;
+  margin-right: 20px;
 }
 
 aside {
   width: 30%;
   padding: 20px;
-  background-color: lightgrey;
+  background-color: rgb(188, 240, 188);
   border-left: 2px dashed black;
 }
 
@@ -113,6 +134,7 @@ aside {
 .widget img {
   float: left;
   margin: 0 10px 5px 0;
+  border-radius: 5%;
 }
 
 .links ul {
@@ -122,18 +144,18 @@ aside {
 }
 
 .links ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 /* footer */
-footer{
-    background-color: lightgrey;
-    border-top: 2px dashed black;
-    text-align: center;
-    padding: 20px 0;
+footer {
+  background-color: lightgrey;
+  border-top: 2px dashed black;
+  text-align: center;
+  padding: 20px 0;
 }
 
-footer p{
-    margin:0;
-    text-shadow: 2px 2px darkgrey;
+footer p {
+  margin: 0;
+  text-shadow: 2px 2px darkgrey;
 }
