@@ -1,4 +1,6 @@
 /* General rules */
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 *,
 *::before,
@@ -8,10 +10,13 @@
   /* domyślnie to jest content-box */
 }
 
-body {
-  margin: 0;
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
+
+
+body{
+    margin:0;
+    font-size: 16px;
+    font-family: 'Neucha', cursive;
+
 }
 
 img {
@@ -44,6 +49,18 @@ header {
   display: block;
 }
 
+.logoText {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+}
+.logoText p {
+  font-family: "Lobster", cursive;
+  font-size: 4em;
+  padding: 0;
+  margin: 5px 0 5px 10px;
+}
+
 /* Menu */
 
 nav ul {
@@ -62,6 +79,7 @@ nav ul li a {
   font-size: 18px;
   text-decoration: none;
   padding: 10px 15px;
+  transition: 1s;
 }
 
 nav ul li a img {
@@ -72,8 +90,14 @@ nav ul li a img {
 }
 
 nav ul li a:hover {
-  background-color: black;
+  background: linear-gradient(
+    243deg,
+    rgba(34, 195, 78, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  border-radius: 20px;
   color: white;
+  border: 1px solid rgb(2, 143, 49);
 }
 
 /* Slider */
