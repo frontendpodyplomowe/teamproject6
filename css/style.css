@@ -1,32 +1,37 @@
 /* General rules */
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
-*, *::before, *::after{
-    box-sizing: border-box;
-    /* box-sizing: content-box; */
-    /* domyślnie to jest content-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* box-sizing: content-box; */
+  /* domyślnie to jest content-box */
 }
+
 
 
 body{
     margin:0;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Neucha', cursive;
+
 }
 
-img{
-    max-width: 100%;
-    height: auto;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Container */
-#container{
-    max-width: 1000px;
-    margin: 20px auto;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 0 0 30px darkgrey;
+#container {
+  max-width: 1000px;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 30px darkgrey;
 }
-
 
 /* Header */
 
@@ -42,6 +47,18 @@ header {
 .brand a,
 .brand img {
   display: block;
+}
+
+.logoText {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+}
+.logoText p {
+  font-family: "Lobster", cursive;
+  font-size: 4em;
+  padding: 0;
+  margin: 5px 0 5px 10px;
 }
 
 /* Menu */
@@ -62,11 +79,25 @@ nav ul li a {
   font-size: 18px;
   text-decoration: none;
   padding: 10px 15px;
+  transition: 1s;
+}
+
+nav ul li a img {
+  margin: 0 5px;
+  display: inline-block;
+  position: relative;
+  top: 4px;
 }
 
 nav ul li a:hover {
-  background-color: black;
+  background: linear-gradient(
+    243deg,
+    rgba(34, 195, 78, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  border-radius: 20px;
   color: white;
+  border: 1px solid rgb(2, 143, 49);
 }
 
 /* Slider */
@@ -91,17 +122,17 @@ article {
 }
 
 /* Przeanalizować ponizszy selektor w kontekscie dzialania wlasciwości box-sizing na wszystkich elementach */
-article img{
-    padding-left: 100px;
-    border-left: 10px solid blue;
-    padding-right: 70px;
-    margin-right: 20px;
+article img {
+  padding-left: 100px;
+  border-left: 10px solid blue;
+  padding-right: 70px;
+  margin-right: 20px;
 }
 
 aside {
   width: 30%;
   padding: 20px;
-  background-color: lightgrey;
+  background-color: rgb(188, 240, 188);
   border-left: 2px dashed black;
 }
 
@@ -112,6 +143,7 @@ aside {
 .widget img {
   float: left;
   margin: 0 10px 5px 0;
+  border-radius: 5%;
 }
 
 .links ul {
@@ -121,18 +153,75 @@ aside {
 }
 
 .links ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
+
+
+.offer {
+  display: flex;
+  padding: 0 100px;
+  justify-content: space-between;
+}
+
+.offer figure {
+  background-color: white;
+  border: .5px solid gray;
+  width: 200px;
+  margin: 50px 0;
+  border-radius: 10px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offer h5 {
+  color: #9ac051;
+  font-weight: 200;
+}
+
+.offer p {
+  color: black;
+
+  text-align: center;
+
+}
+
+.offer .read-more-less-btn {
+  background-color: #9ac051;
+  color: #fff;
+  font-size: 8px;
+  border: none;
+}
+
+.offer .circle-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+}
+
+.offer .sea {
+  background-image: url("/fantastic-seascape-with-ripples.jpeg");
+  background-position: bottom;
+      
+
+
+
+
+
+
 
 /* footer */
-footer{
-    background-color: lightgrey;
-    border-top: 2px dashed black;
-    text-align: center;
-    padding: 20px 0;
+footer {
+  background-color: lightgrey;
+  border-top: 2px dashed black;
+  text-align: center;
+  padding: 20px 0;
 }
 
-footer p{
-    margin:0;
-    text-shadow: 2px 2px darkgrey;
+footer p {
+  margin: 0;
+  text-shadow: 2px 2px darkgrey;
 }
