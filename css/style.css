@@ -10,8 +10,6 @@
   /* domyślnie to jest content-box */
 }
 
-
-
 body{
     margin:0;
     font-size: 16px;
@@ -127,12 +125,13 @@ main {
 /* article */
 
 article {
-  width: 70%;
-  padding: 30px;
-  background-color: lightslategray;
+  width: 100%;
+  padding: 40px;
+  background-color: rgb(159, 223, 159);
 }
 
 /* Przeanalizować ponizszy selektor w kontekscie dzialania wlasciwości box-sizing na wszystkich elementach */
+
 article img {
   padding-left: 100px;
   border-left: 10px solid blue;
@@ -164,6 +163,7 @@ aside {
 }
 
 .links ul li {
+
     margin-bottom: 10px;
     
 }
@@ -241,6 +241,7 @@ aside {
 
 /* footer */
 footer {
+
   background-color: lightgrey;
   border-top: 2px dashed black;
   text-align: center;
@@ -265,4 +266,3 @@ footer {
   height: auto;
   padding: 30px 0;
 }
-
